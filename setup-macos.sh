@@ -11,6 +11,10 @@ set -u
 set -o pipefail
 IFS=$'\n\t'
 
+# This depends on Xcode command line tools, which have to be installed manually.
+# In a terminal: xcode-select --installe
+
+
 # Functions
 function os_check() {
   if [[ "$(uname)" != "Darwin" ]]; then
@@ -70,6 +74,13 @@ function package_install_brew_cask() {
   done < brew-cask-list.txt
 }
 
+function package_install_mac_app_store() {
+  while read pkg; do
+      maspkg=${pkg%% *}
+      mas install ${maspkg}
+  done < mas-list.txt
+}
+
 # Script
 os_check
 intro
@@ -77,3 +88,4 @@ brew_install
 package_install_brew
 package_install_brew_cask
 package_install_apm
+package_install_mac_app_store
