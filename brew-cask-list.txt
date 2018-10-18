@@ -7,8 +7,6 @@ google-chrome
 google-drive
 kindle
 libreoffice
-meld
-mpv
 mysqlworkbench
 nmap
 opera
@@ -19,4 +17,3 @@ thunderbird
 transmission
 visual-studio-code
 vlc
-xquartz
