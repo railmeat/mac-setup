@@ -1,3 +1,4 @@
+aerial
 atom
 visual-studio-code
 emacs
