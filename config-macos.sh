@@ -169,6 +169,10 @@ sudo defaults write /Library/Preferences/com.apple.windowserver DisplayResolutio
 # Finder                                                                      #
 ###############################################################################
 
+# Not really a finder thing, but I did not know where else to put it.
+# Enable full disk encryption
+sudo fdesetup enable
+
 # Finder: allow quitting via ⌘ + Q; doing so will also hide desktop icons
 defaults write com.apple.finder QuitMenuItem -bool true
 
