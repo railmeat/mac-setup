@@ -11,7 +11,7 @@ firefox
 brave
 google-chrome
 opera
-google-drive
+github
 dropbox
 kindle
 libreoffice
