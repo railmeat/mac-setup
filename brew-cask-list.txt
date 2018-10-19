@@ -12,6 +12,8 @@ brave
 google-chrome
 opera
 github
+google-backup-and-sync
+onedrive
 dropbox
 kindle
 libreoffice
