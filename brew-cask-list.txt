@@ -21,6 +21,7 @@ wireshark
 signal
 whatsapp
 zoomus
+textexpander
 thunderbird
 transmission
 gimp
