@@ -1,3 +1,4 @@
+alfred
 aerial
 atom
 visual-studio-code
