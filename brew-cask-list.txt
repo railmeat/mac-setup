@@ -16,7 +16,7 @@ kindle
 libreoffice
 gnucash
 mysqlworkbench
-nmap
+zenmap
 wireshark
 signal
 whatsapp
