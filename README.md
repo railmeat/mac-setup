@@ -28,4 +28,4 @@ https://github.com/railmeat/mac-setup
 1. Install Google Backup and Sync: https://www.google.com/drive/download/
 Apparently it cannot be installed through Homebrew
 1. Install Alfred https://www.alfredapp.com/ There is not cask for it for some reason.
-1. Install Microsoft Office: login.live.com
+1. Install Microsoft Office: account.microsoft.com
