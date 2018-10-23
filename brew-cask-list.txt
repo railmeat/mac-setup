@@ -1,5 +1,6 @@
 alfred
 aerial
+spectacle
 atom
 visual-studio-code
 emacs
