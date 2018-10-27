@@ -6,6 +6,8 @@ visual-studio-code
 emacs
 android-studio
 pycharm-ce
+minikube
+docker
 kaleidoscope
 powershell
 firefox
