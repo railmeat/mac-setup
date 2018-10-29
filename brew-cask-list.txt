@@ -3,6 +3,7 @@ aerial
 spectacle
 atom
 visual-studio-code
+etcher
 emacs
 android-studio
 pycharm-ce
@@ -28,7 +29,7 @@ signal
 whatsapp
 zoomus
 textexpander
-thunderbird
+postbox
 transmission
 gimp
 vlc
