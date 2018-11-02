@@ -3,10 +3,11 @@ aerial
 spectacle
 atom
 visual-studio-code
-etcher
 emacs
+sublime-text
 android-studio
 pycharm-ce
+etcher
 minikube
 docker
 kaleidoscope
