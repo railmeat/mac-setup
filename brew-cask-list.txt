@@ -5,6 +5,7 @@ atom
 visual-studio-code
 emacs
 sublime-text
+evernote
 android-studio
 pycharm-ce
 etcher
