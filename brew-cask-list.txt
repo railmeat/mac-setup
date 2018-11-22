@@ -29,6 +29,7 @@ zenmap
 wireshark
 signal
 whatsapp
+slack
 zoomus
 textexpander
 postbox
