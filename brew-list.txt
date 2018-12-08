@@ -5,3 +5,4 @@ openssl
 nodejs
 sqlite
 youtube-dl
+bzip2
