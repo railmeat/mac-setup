@@ -6,3 +6,4 @@ nodejs
 sqlite
 youtube-dl
 bzip2
+xz
