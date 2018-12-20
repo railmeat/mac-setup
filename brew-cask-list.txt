@@ -37,3 +37,4 @@ transmission
 gimp
 vlc
 steam
+vagrant
