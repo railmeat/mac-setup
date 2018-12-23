@@ -38,3 +38,4 @@ gimp
 vlc
 steam
 vagrant
+postman
