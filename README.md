@@ -25,7 +25,4 @@ https://github.com/railmeat/mac-setup
 1. Unzip them and change to the directory where they were unzipped.
 1. Start script might be a good idea.
 1. Run ./setup-macos.sh and see what happens
-1. Install Google Backup and Sync: https://www.google.com/drive/download/
-Apparently it cannot be installed through Homebrew
-1. Install Alfred https://www.alfredapp.com/ There is not cask for it for some reason.
 1. Install Microsoft Office: account.microsoft.com
