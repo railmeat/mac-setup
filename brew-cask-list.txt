@@ -22,7 +22,6 @@ google-backup-and-sync
 onedrive
 dropbox
 kindle
-libreoffice
 gnucash
 mysqlworkbench
 zenmap
