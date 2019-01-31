@@ -8,7 +8,7 @@ sublime-text
 evernote
 android-studio
 pycharm-ce
-etcher
+balenaetcher
 minikube
 docker
 kaleidoscope
