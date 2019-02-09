@@ -38,3 +38,4 @@ vlc
 steam
 vagrant
 postman
+virtualbox
