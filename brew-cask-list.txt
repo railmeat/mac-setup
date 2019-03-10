@@ -2,8 +2,8 @@ alfred
 aerial
 spectacle
 atom
+aquamacs
 visual-studio-code
-emacs
 sublime-text
 evernote
 android-studio
