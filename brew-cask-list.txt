@@ -39,3 +39,4 @@ steam
 vagrant
 postman
 virtualbox
+gitup
