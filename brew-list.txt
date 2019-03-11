@@ -8,3 +8,4 @@ youtube-dl
 bzip2
 xz
 tarsnap
+ledger
