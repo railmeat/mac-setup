@@ -2,7 +2,7 @@ alfred
 aerial
 spectacle
 atom
-aquamacs
+emacs
 visual-studio-code
 sublime-text
 evernote

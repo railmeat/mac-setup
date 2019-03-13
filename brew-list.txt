@@ -1,3 +1,4 @@
+aspell
 cocoapods
 mas
 mtr
