@@ -10,3 +10,4 @@ bzip2
 xz
 tarsnap
 ledger
+exiftool

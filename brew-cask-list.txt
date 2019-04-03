@@ -39,6 +39,5 @@ steam
 vagrant
 postman
 virtualbox
-gitup
 patchwork
 transmit4
