@@ -42,3 +42,4 @@ virtualbox
 patchwork
 transmit4
 tabula
+discord
