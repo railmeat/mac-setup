@@ -43,3 +43,4 @@ patchwork
 transmit4
 tabula
 discord
+GoldenCheetah
