@@ -11,3 +11,5 @@ xz
 tarsnap
 ledger
 exiftool
+bat
+hexyl
