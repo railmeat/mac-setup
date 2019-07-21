@@ -31,7 +31,7 @@ whatsapp
 slack
 zoomus
 textexpander
-postbox
+thunderbird
 transmission
 gimp
 vlc
@@ -45,3 +45,4 @@ tabula
 discord
 GoldenCheetah
 mattermost
+spotify
