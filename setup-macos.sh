@@ -81,5 +81,4 @@ intro
 brew_install
 package_install_brew
 package_install_brew_cask
-package_install_apm
 package_install_mac_app_store
