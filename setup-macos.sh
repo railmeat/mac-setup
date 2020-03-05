@@ -71,6 +71,7 @@ function package_install_brew_cask() {
 function package_install_mac_app_store() {
   while read pkg; do
       maspkg=${pkg%% *}
+      echo -e "Installing Mac App Store application: ${maspkg}"
       mas install ${maspkg}
   done < mas-list.txt
 }
