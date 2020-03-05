@@ -56,12 +56,6 @@ function brew_install() {
   fi
 }
 
-function package_install_apm() {
-  while read pkg; do
-      apm install ${pkg}
-  done < apm-list.txt
-}
-
 function package_install_brew() {
   while read pkg ; do
       brew install ${pkg}
