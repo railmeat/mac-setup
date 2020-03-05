@@ -12,3 +12,4 @@ ledger
 exiftool
 bat
 hexyl
+minikube

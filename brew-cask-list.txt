@@ -6,12 +6,11 @@ visual-studio-code
 android-studio
 pycharm-ce
 balenaetcher
-minikube
 docker
 kaleidoscope
 powershell
 firefox
-brave
+brave-browser
 google-chrome
 opera
 github
