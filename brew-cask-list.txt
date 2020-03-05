@@ -1,11 +1,8 @@
 alfred
 aerial
 spectacle
-atom
 emacs
 visual-studio-code
-sublime-text
-evernote
 android-studio
 pycharm-ce
 balenaetcher
@@ -18,9 +15,7 @@ brave
 google-chrome
 opera
 github
-google-backup-and-sync
 onedrive
-dropbox
 kindle
 gnucash
 mysqlworkbench
@@ -29,9 +24,7 @@ wireshark
 signal
 whatsapp
 slack
-zoomus
 textexpander
-thunderbird
 transmission
 gimp
 vlc
@@ -39,9 +32,7 @@ steam
 vagrant
 postman
 virtualbox
-patchwork
 transmit4
-tabula
 discord
 GoldenCheetah
 mattermost

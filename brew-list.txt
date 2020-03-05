@@ -1,5 +1,4 @@
 aspell
-cocoapods
 mas
 mtr
 openssl
