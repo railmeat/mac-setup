@@ -14,7 +14,6 @@ brave-browser
 google-chrome
 opera
 github
-iterm2
 kindle
 gnucash
 mysqlworkbench
@@ -23,7 +22,6 @@ wireshark
 signal
 whatsapp
 slack
-textexpander
 transmission
 gimp
 vlc
@@ -33,7 +31,5 @@ postman
 virtualbox
 transmit4
 discord
-GoldenCheetah
 mattermost
 spotify
-postbox
