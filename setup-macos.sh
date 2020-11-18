@@ -12,47 +12,47 @@ set -o pipefail
 IFS=$'\n\t'
 
 # This depends on Xcode command line tools, which have to be installed manually.
-# In a terminal: xcode-select --installe
+# In a terminal: xcode-select --install
 
 
 # Functions
 function os_check() {
   if [[ "$(uname)" != "Darwin" ]]; then
-    echo -e "This script should be run on macOS"
+    echo "This script should be run on macOS"
     exit 1
   else
-    echo -e "Running on macOS"
+    echo "Running on macOS"
   fi
 }
 
 function intro() {
   clear
-  echo -e "🚀 macOS Setup 🚀\n"
+  echo "🚀 macOS Setup 🚀\n"
 }
 
 function brew_install() {
   if [[ ! -x "$(command -v brew)" ]]; then
-    echo -e "Homebrew isn't installed"
-    echo -e "Installing Homebrew"
+    echo "Homebrew isn't installed"
+    echo "Installing Homebrew"
     /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
   else
-    echo -e "Homebrew is installed"
+    echo "Homebrew is installed"
   fi
 
   if [[ "$(brew tap)" != *"homebrew/cask"* ]]; then
-    echo -e "Homebrew-Cask isn't installed"
-    echo -e "Installing Homebrew-Cask"
+    echo "Homebrew-Cask isn't installed"
+    echo "Installing Homebrew-Cask"
     brew tap homebrew/cask
   else
-    echo -e "Homebrew-Cask is installed"
+    echo "Homebrew-Cask is installed"
   fi
 
   if [[ "$(brew tap)" != *"homebrew/cask-versions"* ]]; then
-    echo -e "Homebrew-Cask-Versions isn't installed"
-    echo -e "Installing Homebrew-Cask-Versions"
+    echo "Homebrew-Cask-Versions isn't installed"
+    echo "Installing Homebrew-Cask-Versions"
     brew tap homebrew/cask-versions
   else
-    echo -e "Homebrew-Cask-Versions is installed"
+    echo "Homebrew-Cask-Versions is installed"
   fi
 }
 
@@ -71,7 +71,7 @@ function package_install_brew_cask() {
 function package_install_mac_app_store() {
   while read pkg; do
       maspkg=${pkg%% *}
-      echo -e "Installing Mac App Store application: ${maspkg}"
+      echo "Installing Mac App Store application: ${maspkg}"
       mas install ${maspkg}
   done < mas-list.txt
 }
