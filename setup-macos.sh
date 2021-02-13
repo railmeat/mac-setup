@@ -18,10 +18,10 @@ IFS=$'\n\t'
 # Functions
 function os_check() {
   if [[ "$(uname)" != "Darwin" ]]; then
-    echo "This script should be run on macOS"
+    echo "This script should be run on MacOS"
     exit 1
   else
-    echo "Running on macOS"
+    echo "Running on MacOS"
   fi
 }
 
@@ -34,27 +34,10 @@ function brew_install() {
   if [[ ! -x "$(command -v brew)" ]]; then
     echo "Homebrew isn't installed"
     echo "Installing Homebrew"
-    /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+    /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
   else
     echo "Homebrew is installed"
   fi
-
-  if [[ "$(brew tap)" != *"homebrew/cask"* ]]; then
-    echo "Homebrew-Cask isn't installed"
-    echo "Installing Homebrew-Cask"
-    brew tap homebrew/cask
-  else
-    echo "Homebrew-Cask is installed"
-  fi
-
-  if [[ "$(brew tap)" != *"homebrew/cask-versions"* ]]; then
-    echo "Homebrew-Cask-Versions isn't installed"
-    echo "Installing Homebrew-Cask-Versions"
-    brew tap homebrew/cask-versions
-  else
-    echo "Homebrew-Cask-Versions is installed"
-  fi
-}
 
 function package_install_brew() {
   while read pkg ; do
@@ -64,7 +47,7 @@ function package_install_brew() {
 
 function package_install_brew_cask() {
   while read pkg; do
-      brew cask install ${pkg}
+      brew install ${pkg}
   done < brew-cask-list.txt
 }
 
