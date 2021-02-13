@@ -33,3 +33,4 @@ transmit4
 discord
 mattermost
 zotero
+nmap
