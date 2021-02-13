@@ -14,11 +14,11 @@ I stand on the shoulders of giants.
 > 1. Turn on FileVault
 > 1. Setup touch id
 > 1. Skip Apple Pay.
-1. Allow Calendar to see location.
-1. Open the App Store and
+2. Allow Calendar to see location.
+2. Open the App Store and
 > 1. Install any updates
 > 1. Upgrade the OS if needed.
-1. In finder select Go / Utilities and open a terminal
+4. In finder select Go / Utilities and open a terminal
 1. xcode-select --install then click the appropriate buttons.
 1. Down load the scripts from
 <https://github.com/railmeat/mac-setup>
