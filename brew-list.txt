@@ -12,3 +12,4 @@ bat
 minikube
 espanso
 htop
+smartmontools
