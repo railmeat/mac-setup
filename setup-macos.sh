@@ -38,6 +38,7 @@ function brew_install() {
   else
     echo "Homebrew is installed"
   fi
+}
 
 function package_install_brew() {
   while read pkg ; do
@@ -46,7 +47,7 @@ function package_install_brew() {
 }
 
 function package_install_brew_cask() {
-  while read pkg; do
+  while read pkg ; do
       brew install ${pkg}
   done < brew-cask-list.txt
 }
