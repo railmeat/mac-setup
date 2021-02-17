@@ -38,8 +38,6 @@ sudo pmset -b displaysleep 7
 sudo pmset -a sleep 0
 # Turn off wake on Ethernet
 sudo pmset -a womp 0
-# Turn on PowerNap
-sudo pmset -a powernap
 
 # Disable the sound effects on boot
 # sudo nvram SystemAudioVolume=" "
