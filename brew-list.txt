@@ -13,3 +13,5 @@ minikube
 espanso
 htop
 smartmontools
+ntop
+
