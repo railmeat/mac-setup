@@ -35,3 +35,4 @@ mattermost
 zotero
 nmap
 drawio
+zoom
