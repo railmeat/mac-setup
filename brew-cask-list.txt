@@ -5,15 +5,14 @@ emacs
 visual-studio-code
 android-studio
 balenaetcher
-authy
 kaleidoscope
 firefox
 brave-browser
+google-chrome
+opera
 bitwarden
 gnucash
-google-chrome
 google-backup-and-sync
-opera
 github
 kindle
 mysqlworkbench
@@ -23,7 +22,6 @@ signal
 whatsapp
 slack
 sublime-text
-thunderbird
 tor-browser
 transmission
 gimp
@@ -31,7 +29,6 @@ vlc
 steam
 transmit4
 discord
-mattermost
 zotero
 nmap
 drawio

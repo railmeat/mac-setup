@@ -4,5 +4,4 @@
 451087543 Cosmographia (1.4.0)
 413965349 Soulver (2.6.8)
 1481302432 Instapaper Save (1.2)
-1454269192 Downlink (2.2)
 1482920575 DuckDuckGo Privacy Essentials (1.4.3)

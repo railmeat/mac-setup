@@ -3,12 +3,10 @@ mas
 mtr
 openssl
 nodejs
-sqlite
 youtube-dl
 bzip2
 xz
 exiftool
-bat
 minikube
 espanso
 htop

@@ -6,7 +6,7 @@ I stand on the shoulders of giants.
 
 1. Walk through Apples first use dialogs
 > 1. Select English, then United State
-> 1. Do not select any assistence 
+> 1. Do not select any assistance 
 > 1. Log into WiFi
 > 1. "Continue" on data and privacy
 > 1. Select not to transfer any information from other Macs or PCs. I will do it latter if needed.
@@ -15,7 +15,7 @@ I stand on the shoulders of giants.
 > 1. Don't use iCloud Keychain.
 > 1. Accept "Find My," you don't have a choice
 > 1. Choose the express settings.
-> 1. Share crash and usage data with developers, but I am nice that way.
+> 1. Share crash and usage data with developers, I am nice that way.
 > 1. "Set Up Later" for Screen Time. Where do I disable this?
 > 1. Disable ask Siri.
 > 1. Turn on FileVault and allow my iCloud account to unlock my disk.
