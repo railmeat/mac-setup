@@ -3,6 +3,7 @@ aerial
 rectangle
 emacs
 visual-studio-code
+sublime-text
 android-studio
 balenaetcher
 kaleidoscope
@@ -10,6 +11,8 @@ firefox
 brave-browser
 google-chrome
 opera
+tor-browser
+soulver
 bitwarden
 gnucash
 google-backup-and-sync
@@ -21,8 +24,6 @@ wireshark
 signal
 whatsapp
 slack
-sublime-text
-tor-browser
 transmission
 gimp
 vlc
