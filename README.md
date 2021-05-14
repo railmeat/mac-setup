@@ -22,14 +22,14 @@ I stand on the shoulders of giants.
 > 1. Setup touch id
 > 1. Set up Apple Pay.
 > 1. Select "Light" on "Choose Your Look"
+> 1. Select True Tone Display.
 2. Allow Calendar to see location.
 1. In finder select Go / Utilities and open a terminal, then:
-> 1. Premptivly install rosseta 2: sudo softwareupdate --install-rosetta --agree-to-license
-> 1. Install any software updates: sudo softwareupdate --install --all --agree-to-license
 > 1. xcode-select --install then click the appropriate buttons.
-1. Down load the scripts from
-<https://github.com/railmeat/mac-setup>
+> 1. Prempetivly install rosseta 2: sudo softwareupdate --install-rosetta --agree-to-license
+1. Down load the scripts from <https://github.com/railmeat/mac-setup>
 1. Unzip them and change to the directory where they were unzipped.
 1. Start script might be a good idea.
 1. Run ./setup-macos.sh and see what happens
 1. Install Microsoft Office: account.microsoft.com
+1. Install any software updates: sudo softwareupdate --install --all --agree-to-license
