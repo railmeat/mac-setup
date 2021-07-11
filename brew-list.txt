@@ -10,4 +10,4 @@ exiftool
 minikube
 htop
 smartmontools
-
+syncthing
